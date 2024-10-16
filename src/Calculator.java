@@ -6,4 +6,26 @@ public class Calculator {
         // 결과 값을 반환하는 메서드와 연산 결과를 저장하는 컬렉션 타입 필드를 가진 Calculator 클래스를 생성
 //    }
 
+    // 더하기
+    public int add(int first_num, int second_num){
+        return first_num + second_num;
+    }
+
+    // 빼기
+    public int subtract(int first_num, int second_num){
+        return first_num - second_num;
+    }
+
+
+    // 곱하기
+    public int multiply(int first_num, int second_num){
+        return first_num * second_num;
+    }
+
+
+    // 나누기
+    public int division(int first_num, int second_num){
+        return first_num / second_num;
+    }
 }
+
