@@ -36,8 +36,6 @@ public class Calculator {
                     System.out.println("나눗셈 연산에서 분모(두번째 정수)에 0이 입력될 수 없습니다.");
                     break;
                 }
-                // 0으로 했을 시 제어문 종료 + 컬렉션에 값 추가되면 안됨
-                total = firstNumber / secondNumber;
                 break;
 
             default:
