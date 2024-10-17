@@ -35,7 +35,7 @@ public class App {
                 break;
             } else if(textGuide.equals("remove")){
                 calculator.removeResult();
-                System.out.println("결과는 : " + calculator.result);
+                System.out.println("결과는 : " + calculator.getResult());
             }
         }
     }
