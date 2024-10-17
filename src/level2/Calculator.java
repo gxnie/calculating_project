@@ -33,7 +33,7 @@ public class Calculator {
                      total = firstNumber / secondNumber;
                 } catch (ArithmeticException e) {
                     // 0을 입력했을 때 반복문 종료
-                    System.out.println("나눗셈 연산에서 분모(두번째 정수)에 0이 입력될 수 없습니다.");
+                    System.out.println("나눗셈 연산에서 0으로 나눌 수 없습니다.");
                     break;
                 }
                 break;
