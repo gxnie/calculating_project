@@ -11,18 +11,21 @@ public class App {
 
         while(true){ // 무한으로 반복
             System.out.print("첫번째 숫자를 입력해주세요 : ");
-            int first_num = sc.nextInt();
-            System.out.print("두번째 숫자를 입력해주세요 : ");
-            int second_num = sc.nextInt();
+            int firstNumber = sc.nextInt();
 
+            System.out.print("두번째 숫자를 입력해주세요 : ");
+            int secondNumber = sc.nextInt();
 
             System.out.print("사칙연산 기호를 입력하세요 : ");
             char operator = sc.next().charAt(0); // sc 스캐너에서 값을 받은 0번째 글자
 
-            calculator.calculate(first_num, second_num, operator);
-            // calculator 클래스에 calculate 메서드의 매개변수에 값을 입력하면 계산이 된 결과가 result에 저장
 
+            calculator.calculate(firstNumber, secondNumber, operator);
+            // calculator 클래스에 calculate 메서드의 매개변수에 값을 입력
             System.out.println("결과는 : " + calculator.getResult());
+
+            // calculator.result.add(3);
+            // 직접적으로 컬렉션에 값 저장 불가능 => result가 private final이 붙어있기 때문
 
             System.out.println("더 계산하시겠습니까? (exit 입력 시 종료)");
             System.out.println("가장 먼저 저장된 데이터를 삭제하시겠습니까? (remove 입력 시 삭제)");
@@ -36,5 +39,4 @@ public class App {
             }
         }
     }
-
 }
