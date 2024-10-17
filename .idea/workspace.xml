@@ -4,18 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f110a105-0d17-4ae0-9d2b-5f1db04c6f44" name="Changes" comment="rename: 레벨1 폴더생성, 해당 파일 이동">
-      <change afterPath="$PROJECT_DIR$/.idea/material_theme_project_new.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/calculator_project.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/level2/App.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/level2/Calculator.java" afterDir="false" />
+    <list default="true" id="f110a105-0d17-4ae0-9d2b-5f1db04c6f44" name="Changes" comment="style: 변수명 Camel Case로 변경">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Calculator.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/level2/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/level2/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/level2/Calculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/level2/Calculator.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -76,7 +68,7 @@
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15136719",
     "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "settings.editor.selected.configurable": "preferences.editor",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -136,7 +128,7 @@
       <workItem from="1729045609685" duration="607000" />
       <workItem from="1729046226198" duration="17635000" />
       <workItem from="1729065723230" duration="17000" />
-      <workItem from="1729065750002" duration="7048000" />
+      <workItem from="1729065750002" duration="23767000" />
     </task>
     <task id="LOCAL-00001" summary="test commit">
       <option name="closed" value="true" />
@@ -202,7 +194,31 @@
       <option name="project" value="LOCAL" />
       <updated>1729066671418</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="rename: 레벨2 폴더생성, 해당 파일 이동">
+      <option name="closed" value="true" />
+      <created>1729073096864</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1729073096864</updated>
+    </task>
+    <task id="LOCAL-00010" summary="feat: App 클래스의 main메서드에 calculator 클래스 활용되도록 수정">
+      <option name="closed" value="true" />
+      <created>1729073157993</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1729073157993</updated>
+    </task>
+    <task id="LOCAL-00011" summary="style: 변수명 Camel Case로 변경">
+      <option name="closed" value="true" />
+      <created>1729134339504</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1729134339504</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -214,6 +230,9 @@
     <MESSAGE value="comment: 레벨1기능 설명 주석 추가" />
     <MESSAGE value="feat: 사칙연산 수행후, 결과값 반환 메서드 구현" />
     <MESSAGE value="rename: 레벨1 폴더생성, 해당 파일 이동" />
-    <option name="LAST_COMMIT_MESSAGE" value="rename: 레벨1 폴더생성, 해당 파일 이동" />
+    <MESSAGE value="rename: 레벨2 폴더생성, 해당 파일 이동" />
+    <MESSAGE value="feat: App 클래스의 main메서드에 calculator 클래스 활용되도록 수정" />
+    <MESSAGE value="style: 변수명 Camel Case로 변경" />
+    <option name="LAST_COMMIT_MESSAGE" value="style: 변수명 Camel Case로 변경" />
   </component>
 </project>
